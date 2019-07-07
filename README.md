@@ -1,3 +1,3 @@
-# @bee/js-common-libs
+# slime-js-common-libs
 
 JavaScript 项目通用类库

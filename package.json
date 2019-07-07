@@ -1,10 +1,10 @@
 {
-  "name": "@bee/js-common-libs",
+  "name": "slime-js-common-libs",
   "version": "0.1.0",
-  "description": "应用于 BEE 项目的 JavaScript 项目通用类库",
+  "description": "应用于 SLIME 项目的 JavaScript 项目通用类库",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/project-bee/js-common-libs.git"
+    "url": "git+https://github.com/project-slime/js-common-libs.git"
   },
   "author": {
     "name": "Guan Chao",
@@ -12,9 +12,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/project-bee/js-common-libs/issues"
+    "url": "https://github.com/project-slime/js-common-libs/issues"
   },
-  "homepage": "https://github.com/project-bee/js-common-libs#readme",
+  "homepage": "https://github.com/project-slime/js-common-libs#readme",
   "devDependencies": {
     "lerna": "3.15.0"
   }
