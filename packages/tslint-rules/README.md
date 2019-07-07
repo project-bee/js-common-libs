@@ -1,6 +1,6 @@
-# BEE TSLint 规则
+# SLIME TSLint 规则
 
-此项目为所有的 BEE 项目提供一致的基础 [tslint](https://github.com/palantir/tslint) 规则。
+此项目为所有的 SLIME 项目提供一致的基础 [tslint](https://github.com/palantir/tslint) 规则。
 
 ## 使用方式
 
@@ -9,16 +9,16 @@
 安装包：
 
 ```shell
-npm install @bee/tslint-rules --save-dev
+npm install slime-tslint-rules --save-dev
 ```
 
 ### 配置
 
-将 *@bee/tslint-rules* 作为您 `tslint.json` 的一个扩展：
+将 *slime-tslint-rules* 作为您 `tslint.json` 的一个扩展：
 
 ```json
 {
-  "extends": "@bee/tslint-rules"
+  "extends": "slime-tslint-rules"
 }
 ```
 
@@ -27,7 +27,7 @@ npm install @bee/tslint-rules --save-dev
 ```json
 {
   "extends": [
-    "@bee/tslint-rules",
+    "slime-tslint-rules",
     "another-tslint-ruleset"
   ]
 }

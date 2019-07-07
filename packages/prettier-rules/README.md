@@ -1,6 +1,6 @@
-# BEE Prettier 规则
+# SLIME Prettier 规则
 
-此项目为所有的 BEE 项目提供一致的基础 [Prettier](https://prettier.io) 规则。
+此项目为所有的 SLIME 项目提供一致的基础 [Prettier](https://prettier.io) 规则。
 
 ## 使用方式
 
@@ -9,7 +9,7 @@
 安装包：
 
 ```shell
-npm install @bee/prettier-rules --save-dev
+npm install slime-prettier-rules --save-dev
 ```
 
 ### 配置
@@ -24,7 +24,7 @@ npm install @bee/prettier-rules --save-dev
 {
   "name": "my-cool-library",
   "version": "9000.0.1",
-  "prettier": "@bee/prettier-rules"
+  "prettier": "slime-prettier-rules"
   ...
 }
 ```
@@ -34,14 +34,14 @@ npm install @bee/prettier-rules --save-dev
 如果您不愿意使用 `package.json` 文件，您还可以使用独立的 Prettier 配置文件，比如 `.prettierrc.json`：
 
 ```json
-"@bee/prettier-rules"
+"slime-prettier-rules"
 ```
 
 但是以上的方法都没有提供规则的改写，如您需要改写部分规则，请在 `.prettierrc.js` 或 `prettier.config.js` 文件中改写部分规则并导出最终的修改：
 
 ```js
 module.exports = {
-  ...require('@bee/prettier-rules'),
+  ...require('slime-prettier-rules'),
   semi: false
 };
 ```

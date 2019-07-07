@@ -1,7 +1,7 @@
 {
-  "name": "@bee/tslint-rules",
+  "name": "slime-tslint-rules",
   "version": "0.1.0",
-  "description": "此项目为所有的 BEE 项目提供一致的基础 tslint 规则",
+  "description": "此项目为所有的 SLIME 项目提供一致的基础 tslint 规则",
   "main": "tslint.json",
   "author": {
     "name": "Guan Chao",
