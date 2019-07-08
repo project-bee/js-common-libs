@@ -1,9 +1,19 @@
 {
   "name": "slime-tsconfig",
   "version": "0.1.1",
-  "description": "",
+  "description": "此项目为所有的 SLIME 项目提供通用的基础 tsconfig 设置。",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-slime/js-common-libs.git"
+  },
   "author": {
     "name": "Guan Chao",
     "email": "levid.gc@outlook.com"
-  }
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/project-slime/js-common-libs/issues"
+  },
+  "homepage": "https://github.com/project-slime/js-common-libs/tree/master/packages/tsconfig#readme"
 }
