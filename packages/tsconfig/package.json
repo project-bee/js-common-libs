@@ -1,6 +1,6 @@
 {
   "name": "slime-tsconfig",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "此项目为所有的 SLIME 项目提供通用的基础 tsconfig 设置。",
   "private": false,
   "repository": {
