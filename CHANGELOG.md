@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/project-slime/js-common-libs/compare/v0.1.3...v0.1.4) (2019-07-08)
+
+
+### Bug Fixes
+
+* several folders resolve failure problem ([5a580fb](https://github.com/project-slime/js-common-libs/commit/5a580fb))
+
+
+
+
+
 ## [0.1.3](https://github.com/project-slime/js-common-libs/compare/v0.1.2...v0.1.3) (2019-07-08)
 
 **Note:** Version bump only for package slime-js-common-libs
