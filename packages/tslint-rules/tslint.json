@@ -4,6 +4,13 @@
   "rulesDirectory": [
     "tslint-microsoft-contrib"
   ],
+  "linterOptions": {
+    "exclude": [
+      "../../node_modules/**",
+      "../../dist/**",
+      "../../lib/**"
+    ]
+  },
   "rules": {
     "class-name": true,
     "comment-format": [true, "check-space"],
