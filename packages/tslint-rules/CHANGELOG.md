@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/project-slime/js-common-libs/compare/v0.1.4...v0.2.0) (2019-07-09)
+
+
+### Features
+
+* exclude `node_modules`, `dist`, `lib` folders from lint ([b88b66a](https://github.com/project-slime/js-common-libs/commit/b88b66a))
+
+
+
+
+
 ## [0.1.2](https://github.com/project-slime/js-common-libs/compare/v0.1.1...v0.1.2) (2019-07-08)
 
 **Note:** Version bump only for package slime-tslint-rules
