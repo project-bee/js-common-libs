@@ -47,6 +47,7 @@
       }
     ],
     "missing-optional-annotation": true,
+    "newline-before-return": false,
     "no-arg": true,
     "no-any": true,
     "no-bitwise": true,
