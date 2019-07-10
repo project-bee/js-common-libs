@@ -80,6 +80,7 @@
     "no-unused-expression": true,
     "no-with-statement": true,
     "no-var-keyword": true,
+    "non-literal-fs-path": false,
     "object-literal-sort-keys": false,
     "one-line": [
       true,
