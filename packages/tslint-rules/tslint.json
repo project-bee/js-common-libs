@@ -1,7 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/tslint",
 
-  "rulesDirectory": [
+  "extends": [
     "tslint-microsoft-contrib"
   ],
   "linterOptions": {
@@ -21,6 +21,7 @@
     "indent": [true, "spaces", 2],
     "interface-name": false,
     "label-position": true,
+    "match-default-export-name": false,
     "max-line-length": [true, 120],
     "member-access": true,
     "member-ordering": [
@@ -86,6 +87,12 @@
       "check-catch",
       "check-else",
       "check-whitespace"
+    ],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "any"
+      }
     ],
     "quotemark": [true, "single", "avoid-escape"],
     "prefer-const": true,
