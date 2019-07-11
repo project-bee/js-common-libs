@@ -49,6 +49,7 @@
     "missing-optional-annotation": true,
     "mocha-no-side-effect-code": false,
     "newline-before-return": false,
+    "newline-per-chained-call": false,
     "no-arg": true,
     "no-any": true,
     "no-bitwise": true,
