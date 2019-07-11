@@ -2,9 +2,12 @@
   "$schema": "http://json.schemastore.org/tsconfig",
 
   "compilerOptions": {
+    "baseUrl": "../../",
+    "paths": {
+      "@/*": ["src/*"],
+    },
     "outDir": "../../lib",
     "rootDirs": ["../../src/"],
-
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "declaration": true,
